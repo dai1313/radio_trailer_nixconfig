@@ -1,0 +1,1 @@
+nix run github:nix-community/nixos-anywhere --extra-experimental-features "nix-command flakes" --  --flake '.#console_1' root@192.168.122.11 && nix run github:nix-community/nixos-anywhere --extra-experimental-features "nix-command flakes" --  --flake '.#console_1' root@192.168.122.12
